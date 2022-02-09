@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aaron Simpson">
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+         "HTML-CSS": { linebreaks: { automatic: true } },
+                 SVG: { linebreaks: { automatic: true } }
+        });
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="stylesheet" href="../index.css">
     <title>Aaron Simpson</title>
 </head>
@@ -14,24 +22,24 @@
         <p>There are a variety of numbers we encounter in mathematics and they can be classified into various sets. Here are a few of the
         most important ones.</p>
         <ol>
-            <li>The <b>Empty Set</b>: ∅ = {} = {x | x != x}
+            <li>The <b>Empty Set</b>: $$∅ =\{\}=\{x \mid x != x\}$$
                 <p>The set with no elements. The definition is a bit peculiar, but makes logical sense — the set of elements X such 
                 that X is not equal to itself is empty, since there is no number that is not equal to itself.</p>
             </li>
-            <li>The <b>Natural Numbers</b>: N = {1, 2, 3, ...}</li>
-            <li>The <b>Whole Numbers</b>: W = {0, 1, 2, 3, ...}</li>
-            <li>The <b>Integers</b>: Z = {..., -3, -2, -1, 0, 1, 2, 3, ...}</li>
-            <li>The <b>Rational Numbers</b>: Q = {a/b | a ∈ Z and b ∈ Z}
+            <li>The <b>Natural Numbers</b>: $$N =\{1, 2, 3, ...\}$$</li>
+            <li>The <b>Whole Numbers</b>: $$W =\{0, 1, 2, 3, ...\}$$</li>
+            <li>The <b>Integers</b>: $$Z =\{..., -3, -2, -1, 0, 1, 2, 3, ...\}$$</li>
+            <li>The <b>Rational Numbers</b>: $$Q =\{\frac{a}{b} \mid a ∈ Z \text{ and } b ∈ Z\}$$
                 <p>Rational numbers are the ratios of integers, assuming the bottom integer is nonzero. Furthermore, the decimal form of
                 a rational number either ends (0.25) or repeats the same sequence (0.666666666666...).</p>
             </li>
-            <li>The <b>Real Numbers</b>: R = {x | x can be represented as a decimal}</li>
-            <li>The <b>Irrational Numbers</b>: P = {x | x is a non-rational real number}
+            <li>The <b>Real Numbers</b>: $$R =\{x \mid x \text{ can be represented as a decimal}\}$$</li>
+            <li>The <b>Irrational Numbers</b>: $$P =\{x \mid x \text{ is a non-rational real number}\}$$
                 <p>Defined using the above set, an irrational number is a number that is non-rational and real. They are <strong>real</strong>
                 because they can be represented as a decimal, and <strong>non-rational</strong> because their decimal representation does not
                 end nor repeat. Examples are pi, the constant e, the square root of 2, and more.</p>
             </li>
-            <li>The <b>Complex Numbers</b>: C = {a + bi | a,b ∈ R and i = √−1}
+            <li>The <b>Complex Numbers</b>: $$C =\{a + bi \mid a,b ∈ R \text{ and } i = \sqrt{-1}\}$$
                 <p>The set of all numbers that can be expressed in the form a + bi, where a and b are <strong>real numbers</strong>
                 and i is defined as the square root of -1. Useful in physics and other forms of applied mathematics.</p>
             </li>
