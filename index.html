@@ -5,48 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aaron Simpson">
-    <meta name="description" content="Musings and Math from Aaron Simpson">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <meta name="description" content="Personal Webpage of Aaron Simpson">
     <link rel="stylesheet" href="index.css">
-    <title>Aaron Simpson's Homepage</title>
+    <title>Aaron Simpson</title>
 </head>
 <body>
-    <div class="container">
-        <div id="header">
+    <div>
+        <div id="phead" class="container">
             <div class="row">
-                <div id="headpic">
+                <div id="ppic">
                     <img src="images/profile.jpeg" />
                 </div>
-                <div id="headbio">
-                    <h1 class="headbio-name">Aaron Simpson</h1>
-                    <h2 class="headbio-sub">Current Status: At <a href="https://trevipay.com">TreviPay</a></h2>
+                <div id="pdesc">
+                    <h1>Aaron Simpson</h1>
+                    <h2>Writer, Programmer, & Recreational Mathematician</h2>
                     <div>
-                        <a href="https://twitter.com/aaronsimpsonks">
+                        <a href="https://twitter.com/aaronsimpsonks" class="socico-link">
                             <img src="images/twitter.svg" class="socico" />
                         </a>
-                        <a href="https://github.com/aaronsimpsonks">
+                        <a href="https://github.com/aaronsimpsonks" class="socico-link">
                             <img src="images/github.svg" class="socico" />
                         </a>
-                        <a href="https://news.ycombinator.com/user?id=aaronsimpson">
+                        <a href="https://news.ycombinator.com/user?id=aaronsimpson" class="socico-link">
                             <img src="images/hacker-news.svg" class="socico" />
                         </a>
-                        <a href="mailto:aaron@aaronsimpson.org">
+                        <a href="mailto:aaron@aaronsimpson.org" class="socico-link">
                             <img src="images/email.svg" class="socico" />
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="body">
-            <p>I'm a software engineer in B2B financial technology, where I help businesses grow. Previously, I studied computer science
-            at Kansas State University.</p>
-            <p>My main passions are mathematics, computer science, physics, and economics. In computer science, I'm particularly
-            interested in runtime systems, information security, compiler engineering, and programming language theory.
-            Outside of tech, I'm an independent researcher who studies corporations, governments, and economies from a
-            quantitative perspective.</p>
-            <p>I love meeting new people, so I eagerly welcome contact through any of my listed social media. Let's talk!</p>
+        <hr />
+        <div style="background-color: #EBEEF2; padding-top: 1px; padding-bottom: 30px">
+            <div class="container">
+                <div class="stitle">Short Bio</div>
+                <p>I'm a writer, programmer, and recreational mathematician from the Midwest United States.
+                My main passions are math, finance, computer science, physics, and economics. In computer science, I'm particularly 
+                interested in runtime systems, information security, compiler engineering, and programming language theory. Outside 
+                of tech, I'm an independent researcher who studies corporations, governments, and economies from a quantitative 
+                perspective.</p>
+            </div>
+        </div>
+        <div style="padding-top: 20px; padding-bottom: 30px"">
+            <div class="container">
+                <div class="entry row">
+                    <div class="timespan">2021</div>
+                    <div class="ico">
+                        <div class="entry-dot"></div>
+                        <img src="images/TreviPayLogo.png" />
+                    </div>
+                    <div class="desc">
+                        <p>I am a Software Engineer on the Invoicing Experience team at TreviPay. This includes full-stack development
+                        work using JavaScript, NodeJS, and component-based frameworks like Vue. GitLab handles version control
+                        and CI/CD pipelines, and AWS delivers our applications to production around the globe. Our B2B financial services
+                        help clients like Best Buy, Lenovo, United for Business, and Navistar serve their customers.</p>
+                    </div>
+                </div>
+                <div class="entry row">
+                    <div class="timespan">2016 - 2020</div>
+                    <div class="ico">
+                        <div class="entry-dot"></div>
+                        <img src="images/KSU.png" />
+                    </div>
+                    <div class="desc">
+                        <p>BSc at Kansas State University with a major in computer science.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
