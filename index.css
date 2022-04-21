@@ -17,7 +17,7 @@ h1, h2 {
 }
 
 #contents {
-    max-width: 500pt;
+    max-width: 500px;
     margin: auto;
     margin-bottom: 30px;
     border: 1px solid gray;
