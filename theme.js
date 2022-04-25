@@ -2,9 +2,9 @@ let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
 let theme = sessionStorage.getItem('theme');
 
 if (systemInitiatedDark.matches) {
-    document.getElementById("theme-toggle").innerHTML = "<img src=\"images/sun.svg\" width=\"15px\" />";
-} else {
     document.getElementById("theme-toggle").innerHTML = "<img src=\"images/moon.svg\" width=\"15px\" />";
+} else {
+    document.getElementById("theme-toggle").innerHTML = "<img src=\"images/sun.svg\" width=\"15px\" />";
 }
 
 function prefersColorTest(systemInitiatedDark) {
@@ -41,7 +41,6 @@ function modeSwitcher() {
 		document.getElementById("theme-toggle").innerHTML = "<img src=\"images/moon.svg\" width=\"15px\" />";
 	}
 }
-
 if (theme === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
 	sessionStorage.setItem('theme', 'dark');
