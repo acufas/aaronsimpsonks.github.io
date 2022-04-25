@@ -4,38 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
-    <title>Aaron M. Simpson</title>
+    <meta name="author" content="Aaron Simpson">
+    <meta name="description" content="Personal Webpage of Aaron Simpson">
+    <link id="style-light" rel="stylesheet" href="index.css" />
+    <link id="style-dark" disabled rel="stylesheet" href="index.css" />
+    <script src="theme.js" type="text/javascript" defer></script>
+    <title>Aaron Simpson's Home Page</title>
 </head>
 <body>
-    <div id="contents">
-        <h1>Aaron M. Simpson</h1>
-        <hr />
-        <p>Aaron M. Simpson<br />Email: <a href="mailto:aaron@aaronsimpson.org">aaron@aaronsimpson.org</a></p>
-        <hr />
-        <a href="#bio">Bio</a> | <a href="#code">Code</a> | <a href="#around%20the%20web">Around the Web</a> | <a href="#">Contact</a>
-        <hr />
-        <h2>Bio</h2>
-        <p>I'm a writer, analyst, and computer scientist. My main interests are open-source
-        intelligence, cybersecurity research, international relations, and geopolitics. I have a
-        B.S. in Computer Science from Kansas State University.</p>
-        <hr />
-        <h2>Code</h2>
-        <p>A collection of projects and open-source contributions.</p>
-        <hr />
-        <h2>Around the Web</h2>
-        <p>Other places you can find me around the web. I can usually be found by some variation of the name
-        "acufas".</p>
-        <ul>
-            <li>Twitter: <a href="https://twitter.com/acufas">@acufas</a></li>
-            <li>GitHub: <a href="https://github.com/acufas">@acufas</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/acufas/">acufas</a></li>
-        </ul>
-        <hr />
-        <h2>Contact</h2>
-        <p>Please reach out through any of the above channels! I love interesting conversations and meeting new people.
-        I promise I don't bite :)</p>
+    <div id="content">
+        <div id="text">
+            <p>Hi, my name is Aaron.</p>
+            <p>I'm a writer, analyst, and computer scientist. My broad interests are open-source intelligence,
+            cybersecurity research, international relations, and geopolitics.</p>
+            <p>I have a B.S. in Computer Science from Kansas State University.</p>
+            <p>Read my <a href="#" class="underline">notes</a> or <a href="https://github.com/acufas" class="underline">code</a>.</p>
+            <p><a href="mailto:aaron@aaronsimpson.org" class="underline">aaron@aaronsimpson.org</a></p>
+            <p><a href="https://twitter.com/acufas" class="underline">@acufas</a></p>
+            <a id="theme-toggle" onclick="modeSwitcher()">
+                <img src="images/sun.svg" />
+            </a>
+        </div>
     </div>
 </body>
 </html>
