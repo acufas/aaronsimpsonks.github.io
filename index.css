@@ -42,6 +42,11 @@ a.underline:hover:before {
     width: 100%;
 }
 
+#content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 #text {
     max-width: 600px;
 }
